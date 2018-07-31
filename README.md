@@ -1,11 +1,3 @@
 # javascript_exercise
-function a() { <br>
-    function b(){  <br>
-       console.log(myVar);  <br>
-       }                    <br>  
-       b();                  <br>
- }                            <br>
-  var myVar =1;                <br>
-  a();                         <br>
-  
-  result --> 1             
+## from method
+![frommethod](https://user-images.githubusercontent.com/26092150/43490868-578b4504-94f0-11e8-9930-ea0a12eb825f.JPG)
