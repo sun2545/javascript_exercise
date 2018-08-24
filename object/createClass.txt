@@ -1,0 +1,27 @@
+function Health(name){
+  this.name = name;
+}
+ Health.prototype.showHealth = function(){
+   console.log("Hello "+ this.name);
+ }
+ 
+const h = new Health("kwon");
+h.showHealth();
+
+---------------------------------------------------------------------
+
+class Health {
+  constructor(name, lastTime){
+    this.name = name;
+    this.lastTime = lastTime;
+  }
+  
+  showHealth(){
+    console.log("Hello "+ this.name );
+  }
+}
+
+const myHealth = new Health("kwon");
+myHealth.showHealth();
+
+// javascript doesn't have Class, just have object funtion
