@@ -1,0 +1,14 @@
+//Object assign method
+
+const previousObj = {
+  name : "kwon",
+  lastTime : "11:20"
+};
+
+const myHealth = Object.assign({}, previousObj, {
+  "lastTime" : "12:30",
+  "age" :99
+});
+
+console.log(previousObj, myHealth);
+
