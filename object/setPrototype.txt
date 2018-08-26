@@ -1,0 +1,32 @@
+//setPrototypeOf
+
+const healthObj ={
+  showHealth : function(){
+    console.log("exercise time :" + this,healthTime);
+  }
+}
+
+const myHealth = Object.assign(Object.create(healthObj),{
+  name : "kwon",
+  lastTime : "11:20"
+});
+
+console.log("myhealth is ", myHealth);
+
+------------------------------------------------------------------
+const healthObj ={
+  showHealth : function(){
+    console.log("exercise time :" + this,healthTime);
+  }, setHealth : function(newTime){
+    this.healthTime = newTime;
+  }
+}
+
+const newobj = Object.setPrototypeOf({
+  
+
+  name : "kwon",
+  lastTime : "11:20"
+}, healthObj);
+
+console.log(newobj);
