@@ -6,3 +6,6 @@
 ![1](https://user-images.githubusercontent.com/26092150/44613886-d6a21d80-a7e8-11e8-8fb4-6fc39de8b947.JPG)
 ### set prototypeof
 ![capture](https://user-images.githubusercontent.com/26092150/44624256-061f5b80-a8b7-11e8-93e9-2629e02b5eaf.JPG)
+### chain prototypeOf
+![capture](https://user-images.githubusercontent.com/26092150/44632146-f13cd980-a943-11e8-96c0-4b438728da82.JPG)
+
